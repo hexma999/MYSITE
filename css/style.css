@@ -235,7 +235,7 @@ button {
   filter: brightness(150%);
 }
 
-/* workd */
+/* work */
 #work {
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -285,9 +285,9 @@ button {
 
 .projects {
   display: grid;
-  /* 가로로 4개의 칸을 만들고 각각의 칸을 동일한 네비로 나눔 */
+  /* 가로로 4개의 칸을 만들고 각각의 칸을 동일한 너비로 나눔 */
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
 }
 
@@ -312,8 +312,9 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   transition: all 250ms ease-in;
-  transform: translateY(-100px);
+  transform: translateY(-10px);
 }
 
 .project__metadata:hover {
